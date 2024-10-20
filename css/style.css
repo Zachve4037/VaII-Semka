@@ -34,7 +34,6 @@ h1 {
 .special_nadpis {
     text-decoration-line: underline;
 }
-
 .footer {
     background-color: #1a2e35;
 }
@@ -43,15 +42,14 @@ h1 {
     text-align: center;
 }
 .image {
-    max-width: 450px;
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    display: block;
 }
 
-.main_image {
-    max-width: 700px;
-    width: 100%;
-    height: auto;
+.categoryText {
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .category {
@@ -106,10 +104,11 @@ h1 {
 .footerNonImages {
     display: flex;
     justify-content: space-between;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 50px;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .footerText {
@@ -171,6 +170,11 @@ h1 {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
     }
+    .footerNonImages {
+        justify-content: center;
+    }
+    flex: 0 0 45%;
+    margin-bottom: 20px;
 }
 
 
