@@ -83,8 +83,42 @@ h1 {
      font-size: 2rem;
 }
 
+.footer {
+    color: white;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.linksLinks a{
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+.linksLinks a:hover {
+    color: #1cbbb4;
+}
+
+.footerNonImages {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+.footerText {
+    text-align: left;
+}
+
 .copyright {
     text-align: center;
+    margin-top: 10px;
 }
 
 .grid-layout .header {
